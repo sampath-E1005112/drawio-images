@@ -1,0 +1,163 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
+  <diagram name="Page-1" id="VT_6Qw1aWsHUjmqeyfBk">
+    <mxGraphModel dx="1045" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1378" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gW8mQ6mIbrMlsP55nLoq-1" value="Launches TBD modal from budget portal" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="354" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gW8mQ6mIbrMlsP55nLoq-5" value="Greets user and ask named resource / emplyee" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=center;" vertex="1" parent="1">
+          <mxGeometry x="354" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gW8mQ6mIbrMlsP55nLoq-8" value="Provides employee name / GUID" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="354" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gW8mQ6mIbrMlsP55nLoq-11" value="Asks number of TBD resource to add" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=center;" vertex="1" parent="1">
+          <mxGeometry x="249" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gW8mQ6mIbrMlsP55nLoq-12" value="Provides a list of employee name" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=center;" vertex="1" parent="1">
+          <mxGeometry x="459" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gW8mQ6mIbrMlsP55nLoq-13" value="Gives the count of TBD resource to add" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="249" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gW8mQ6mIbrMlsP55nLoq-14" value="Choose the employee from the given list" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="459" y="530" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="gW8mQ6mIbrMlsP55nLoq-17" value="User Request" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="645" y="112" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gW8mQ6mIbrMlsP55nLoq-18" value="Bot Response" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=center;" vertex="1" parent="1">
+          <mxGeometry x="645" y="152" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gW8mQ6mIbrMlsP55nLoq-19" value="LEGEND" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="665" y="70" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gW8mQ6mIbrMlsP55nLoq-20" value="Asks for the hours to add for each TBD resource" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=center;" vertex="1" parent="1">
+          <mxGeometry x="249" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gW8mQ6mIbrMlsP55nLoq-24" value="Gives the hours for each TBD resource" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="249" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gW8mQ6mIbrMlsP55nLoq-26" value="Gives confirmation on the TBD resource addition and ask user to verify the grid and also as for feedback" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=center;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1020" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gW8mQ6mIbrMlsP55nLoq-27" value="Recommends possible TBD info if no active TBD info found for identified combination and ask user to select from the list" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=center;" vertex="1" parent="1">
+          <mxGeometry x="303" y="835" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="gW8mQ6mIbrMlsP55nLoq-28" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;" edge="1" parent="1" source="gW8mQ6mIbrMlsP55nLoq-14" target="gW8mQ6mIbrMlsP55nLoq-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="419" y="680" as="sourcePoint" />
+            <mxPoint x="469" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gW8mQ6mIbrMlsP55nLoq-31" value="List of possible TBD combinations" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=center;" vertex="1" parent="1">
+          <mxGeometry x="269" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gW8mQ6mIbrMlsP55nLoq-32" value="Option &quot;Not to add&quot; TBD resource is shown" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=center;" vertex="1" parent="1">
+          <mxGeometry x="429" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gW8mQ6mIbrMlsP55nLoq-34" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="393.13" y="325.63" width="41.75" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="gW8mQ6mIbrMlsP55nLoq-41" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeWidth=2;" edge="1" parent="1" source="gW8mQ6mIbrMlsP55nLoq-5" target="gW8mQ6mIbrMlsP55nLoq-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="540" as="sourcePoint" />
+            <mxPoint x="430" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gW8mQ6mIbrMlsP55nLoq-43" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="413.51" y="340" as="sourcePoint" />
+            <mxPoint x="413.51" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gW8mQ6mIbrMlsP55nLoq-45" value="Use selects from the list of TBD info" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="273.13" y="1040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gW8mQ6mIbrMlsP55nLoq-46" value="Use selects &quot;Not to add&quot; TBD resource" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="434.88" y="1040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gW8mQ6mIbrMlsP55nLoq-50" value="" style="endArrow=none;html=1;rounded=0;exitX=0.393;exitY=-0.05;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="gW8mQ6mIbrMlsP55nLoq-26" target="gW8mQ6mIbrMlsP55nLoq-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="910" as="sourcePoint" />
+            <mxPoint x="240" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gW8mQ6mIbrMlsP55nLoq-51" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.007;exitY=0.617;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="gW8mQ6mIbrMlsP55nLoq-45" target="gW8mQ6mIbrMlsP55nLoq-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="910" as="sourcePoint" />
+            <mxPoint x="430" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gW8mQ6mIbrMlsP55nLoq-52" value="Greets with a thank you message ask for feedback" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=center;" vertex="1" parent="1">
+          <mxGeometry x="425" y="1150" width="136" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gW8mQ6mIbrMlsP55nLoq-53" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;exitX=0.598;exitY=-0.03;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="gW8mQ6mIbrMlsP55nLoq-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="530" as="sourcePoint" />
+            <mxPoint x="320" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gW8mQ6mIbrMlsP55nLoq-54" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeWidth=2;" edge="1" parent="1" source="gW8mQ6mIbrMlsP55nLoq-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="523.55" y="550" as="sourcePoint" />
+            <mxPoint x="523.55" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gW8mQ6mIbrMlsP55nLoq-55" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;* Multiple employee records found&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="474" y="390" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gW8mQ6mIbrMlsP55nLoq-57" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;exitX=0.592;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="gW8mQ6mIbrMlsP55nLoq-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="321" y="638" as="sourcePoint" />
+            <mxPoint x="320" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gW8mQ6mIbrMlsP55nLoq-58" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;exitX=0.592;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="492.47" y="1150" as="sourcePoint" />
+            <mxPoint x="492.47" y="1100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gW8mQ6mIbrMlsP55nLoq-59" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="750" as="sourcePoint" />
+            <mxPoint x="320" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gW8mQ6mIbrMlsP55nLoq-60" value="" style="whiteSpace=wrap;html=1;aspect=fixed;opacity=10;perimeterSpacing=4;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="620" y="50" width="170" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="gW8mQ6mIbrMlsP55nLoq-62" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="329" y="1040" as="sourcePoint" />
+            <mxPoint x="328.83000000000004" y="1020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gW8mQ6mIbrMlsP55nLoq-63" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="494.88" y="1040" as="sourcePoint" />
+            <mxPoint x="494.71000000000004" y="1020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gW8mQ6mIbrMlsP55nLoq-64" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="372.07" y="846.94" width="35.62" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="gW8mQ6mIbrMlsP55nLoq-65" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;exitX=0.248;exitY=0.024;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="gW8mQ6mIbrMlsP55nLoq-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="830" as="sourcePoint" />
+            <mxPoint x="340" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gW8mQ6mIbrMlsP55nLoq-66" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;SEQUENCE OF EVENTS FOR A CONVERSATIONAL FLOW&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="209" y="20" width="410" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gW8mQ6mIbrMlsP55nLoq-67" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;* If no active TBD info found for identified combination&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="354" y="805" width="260" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
