@@ -1,0 +1,185 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
+  <diagram name="Page-1" id="gIdaaY2K4BaMiWHqVSfF">
+    <mxGraphModel dx="2612" dy="1652" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pSrs7uPZZeZ2gySkBNsR-4" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;Multi intent orchestrator&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="10" y="506" width="136" height="136" as="geometry" />
+        </mxCell>
+        <mxCell id="pSrs7uPZZeZ2gySkBNsR-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="533" y="460" width="620" height="199" as="geometry" />
+        </mxCell>
+        <mxCell id="pSrs7uPZZeZ2gySkBNsR-7" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeWidth=2;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="156" y="520" width="364" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pSrs7uPZZeZ2gySkBNsR-8" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeWidth=2;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="156" y="580" width="364" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pSrs7uPZZeZ2gySkBNsR-9" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Budget Creation endpoint in QS&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;FlexGenAIForecast Microservice -&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Response to&amp;nbsp; User + Display Type +&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Updated Context info&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="203" y="595" width="270" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="pSrs7uPZZeZ2gySkBNsR-10" value="&lt;div&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;Budget Creation endpoint in QS&amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;FlexGenAIForecast Microservice -&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;Invocation Request through multitenant orchestrator&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;Based on extracted/retrieved details i.e&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;Extracted intent and entity&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;+ latest context info +&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;latest chat history&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;+ service authentication token&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="360" width="400" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="pSrs7uPZZeZ2gySkBNsR-15" value="«native function»&lt;br&gt;&lt;b&gt;Generate final output&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="550" y="600" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pSrs7uPZZeZ2gySkBNsR-16" value="«native function»&lt;br&gt;&lt;b&gt;Data metrics logging&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="700" y="600" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pSrs7uPZZeZ2gySkBNsR-17" value="«sk plugin»&lt;br&gt;&lt;b&gt;Rephrase prompt question&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="850" y="600" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pSrs7uPZZeZ2gySkBNsR-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pSrs7uPZZeZ2gySkBNsR-17" target="pSrs7uPZZeZ2gySkBNsR-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="850" y="622.95" as="sourcePoint" />
+            <mxPoint x="716.5" y="559.9987116564417" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pSrs7uPZZeZ2gySkBNsR-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="624.7" as="sourcePoint" />
+            <mxPoint x="660" y="624.7" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pSrs7uPZZeZ2gySkBNsR-20" value="5" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="670" y="590" width="15" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="pSrs7uPZZeZ2gySkBNsR-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pSrs7uPZZeZ2gySkBNsR-22" target="pSrs7uPZZeZ2gySkBNsR-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="770" y="530" />
+              <mxPoint x="770" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pSrs7uPZZeZ2gySkBNsR-22" value="«native function»&lt;br&gt;&lt;b&gt;Invoke business rules engine to get next action details&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="560" y="499.5" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pSrs7uPZZeZ2gySkBNsR-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="pSrs7uPZZeZ2gySkBNsR-23" target="pSrs7uPZZeZ2gySkBNsR-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1065" y="638" />
+              <mxPoint x="985" y="638" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pSrs7uPZZeZ2gySkBNsR-23" value="«native function»&lt;br&gt;&lt;b&gt;Invoke API based on next action details&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="490" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pSrs7uPZZeZ2gySkBNsR-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pSrs7uPZZeZ2gySkBNsR-24" target="pSrs7uPZZeZ2gySkBNsR-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="990" y="530" />
+              <mxPoint x="990" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pSrs7uPZZeZ2gySkBNsR-24" value="&lt;font style=&quot;font-size: 8px; line-height: 50%;&quot;&gt;Requires API &lt;br&gt;call ?&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="490" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pSrs7uPZZeZ2gySkBNsR-28" value="4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="770" y="565" width="15" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="pSrs7uPZZeZ2gySkBNsR-29" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="535" y="490" width="15" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="pSrs7uPZZeZ2gySkBNsR-30" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="830" y="491" width="15" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="pSrs7uPZZeZ2gySkBNsR-37" value="3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="990" y="500" width="15" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="pSrs7uPZZeZ2gySkBNsR-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.644;entryY=0.038;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="pSrs7uPZZeZ2gySkBNsR-24" target="pSrs7uPZZeZ2gySkBNsR-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pSrs7uPZZeZ2gySkBNsR-40" value="Next&amp;nbsp;&lt;div&gt;action&amp;nbsp;&lt;/div&gt;&lt;div&gt;details&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="760" y="477.5" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pSrs7uPZZeZ2gySkBNsR-41" value="Yes&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="920" y="506" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pSrs7uPZZeZ2gySkBNsR-42" value="No&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="870" y="565" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pSrs7uPZZeZ2gySkBNsR-43" value="&lt;div&gt;&lt;b&gt;Budget Creation endpoint in QS&amp;nbsp;&lt;/b&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;FlexGenAIForecast Microservice&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="648" y="460" width="390" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pSrs7uPZZeZ2gySkBNsR-54" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="200" width="280" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="pSrs7uPZZeZ2gySkBNsR-55" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="200" width="280" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="pSrs7uPZZeZ2gySkBNsR-56" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="200" width="280" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="pSrs7uPZZeZ2gySkBNsR-57" value="Search&amp;nbsp;&lt;br&gt;Opportunity" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="790" y="260" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pSrs7uPZZeZ2gySkBNsR-58" value="Opportunity&amp;nbsp;&lt;br&gt;Details" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="880" y="260" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pSrs7uPZZeZ2gySkBNsR-59" value="Create&amp;nbsp;&lt;br&gt;Budget" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="970" y="260" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pSrs7uPZZeZ2gySkBNsR-60" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Modernized API for salesforce &amp;amp; Flex&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="780" y="210" width="267" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pSrs7uPZZeZ2gySkBNsR-62" value="Search&amp;nbsp;&lt;br&gt;for&amp;nbsp;&lt;br&gt;Tax Manager" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="260" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pSrs7uPZZeZ2gySkBNsR-63" value="Get work&amp;nbsp;&lt;br&gt;locations" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="260" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pSrs7uPZZeZ2gySkBNsR-64" value="Get pricing type" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="260" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pSrs7uPZZeZ2gySkBNsR-65" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Flex support wrapper MS for legacy endpoints&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1093" y="210" width="267" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pSrs7uPZZeZ2gySkBNsR-66" value="Get respective business rules based on the given intent" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="455" y="250" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="pSrs7uPZZeZ2gySkBNsR-67" value="Based on context information, determine next action details" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="600" y="250" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="pSrs7uPZZeZ2gySkBNsR-68" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="550" y="250" width="15" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="pSrs7uPZZeZ2gySkBNsR-69" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="698.5" y="250" width="15" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="pSrs7uPZZeZ2gySkBNsR-70" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Business rules NodeJS microservice - (Zen engine)&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="446.5" y="210" width="267" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pSrs7uPZZeZ2gySkBNsR-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.092;entryY=0.024;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="pSrs7uPZZeZ2gySkBNsR-54" target="pSrs7uPZZeZ2gySkBNsR-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="577" y="425" />
+              <mxPoint x="578" y="425" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pSrs7uPZZeZ2gySkBNsR-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.336;entryY=0.015;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="pSrs7uPZZeZ2gySkBNsR-55" target="pSrs7uPZZeZ2gySkBNsR-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1047" y="380" />
+              <mxPoint x="1047" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pSrs7uPZZeZ2gySkBNsR-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classicThin;startFill=1;" edge="1" parent="1" source="pSrs7uPZZeZ2gySkBNsR-56">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1106" y="490" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1106" y="390" />
+              <mxPoint x="1106" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
