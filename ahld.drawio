@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.2">
   <diagram name="Page-1" id="gIdaaY2K4BaMiWHqVSfF">
-    <mxGraphModel dx="2475" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2305" dy="718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -176,7 +176,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="oPa8zWOb1V9ht8Th1zbh-1" value="CHAT BOT MFE" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="oPa8zWOb1V9ht8Th1zbh-1" value="Flex GenAI chatbot MFE" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-210" y="530" width="120" height="110" as="geometry" />
         </mxCell>
         <mxCell id="oPa8zWOb1V9ht8Th1zbh-4" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeWidth=2;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" parent="1" vertex="1">
@@ -185,26 +185,41 @@
         <mxCell id="oPa8zWOb1V9ht8Th1zbh-5" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeWidth=2;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;rotation=-180;" parent="1" vertex="1">
           <mxGeometry x="-84" y="587.5" width="94" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="TLiKw5Zl44_ZbLvSAun2-1" value="FLEX MFE" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-430" y="530" width="120" height="110" as="geometry" />
-        </mxCell>
         <mxCell id="TLiKw5Zl44_ZbLvSAun2-2" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeWidth=2;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" vertex="1" parent="1">
-          <mxGeometry x="-310" y="545" width="100" height="20" as="geometry" />
+          <mxGeometry x="-378" y="545" width="160" height="20" as="geometry" />
         </mxCell>
         <mxCell id="TLiKw5Zl44_ZbLvSAun2-3" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeWidth=2;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;rotation=-180;" vertex="1" parent="1">
-          <mxGeometry x="-304" y="587.5" width="94" height="20" as="geometry" />
+          <mxGeometry x="-370" y="590" width="154" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="TLiKw5Zl44_ZbLvSAun2-4" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;Response from chatbot &lt;br&gt;to update the staff grid with&lt;br&gt;&amp;nbsp;TBD resources&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;in budget &lt;br&gt;screen&lt;/span&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-350" y="640" width="200" height="90" as="geometry" />
+        <mxCell id="TLiKw5Zl44_ZbLvSAun2-4" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;Response from chatbot &lt;br&gt;to update the staff grid with&lt;br&gt;&amp;nbsp;TBD resources&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;in budget &lt;br&gt;screen and chatbot screen gets minimized&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-427" y="640" width="300" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="TLiKw5Zl44_ZbLvSAun2-5" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;Invocation from &lt;br&gt;Flex budget screen&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-335" y="465" width="150" height="50" as="geometry" />
+        <mxCell id="TLiKw5Zl44_ZbLvSAun2-5" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;Invocation from &lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;Flex budget screen&lt;/span&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;Payload contains&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;- budget id,&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;engagement territory,&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;intent name&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-363" y="414" width="180" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="TLiKw5Zl44_ZbLvSAun2-6" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;Request to MIO for &lt;br&gt;TBD resource addition.&lt;br&gt;Payload contains&lt;br&gt;&lt;b&gt;- budget id, &lt;br&gt;engagement territory, &lt;br&gt;intent name&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-130" y="396" width="180" height="140" as="geometry" />
+        <mxCell id="TLiKw5Zl44_ZbLvSAun2-6" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;Request to MIO for &lt;br&gt;TBD resource addition.&lt;br&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="455" width="180" height="70" as="geometry" />
         </mxCell>
         <mxCell id="TLiKw5Zl44_ZbLvSAun2-8" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;Payload for Flex &lt;br&gt;MFE to update &lt;br&gt;staff grid&amp;nbsp;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-79" y="642" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="TLiKw5Zl44_ZbLvSAun2-9" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-520" y="525" width="138" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="TLiKw5Zl44_ZbLvSAun2-12" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#505050;shape=mxgraph.mscae.intune.user_group" vertex="1" parent="1">
+          <mxGeometry x="-767" y="561" width="70" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="TLiKw5Zl44_ZbLvSAun2-14" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;Flex webapp/ Flex MFE&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-538" y="490" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TLiKw5Zl44_ZbLvSAun2-15" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeWidth=2;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="-697" y="575" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TLiKw5Zl44_ZbLvSAun2-16" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;Access through &lt;br&gt;OpenAM authentication&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-717" y="509.5" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TLiKw5Zl44_ZbLvSAun2-17" value="Flex budget screen" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-490" y="552.5" width="78" height="52.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
