@@ -1,0 +1,17 @@
+Hi all,
+
+We have a change in legacy API (talentLinkKeys) in Flex app repo upon discussion with @vijay today. Listing down the changes that needs to addressed
+
+1. In `Areas/API/WebAPIControllers/LookupController.cs`, add `employeeEmail` as optional parameter for the method `GetTalentLinkKeys`
+2. In the same method, if the `employeeEmail` has a value, pass the `employeeEmail` paramater value to the `GetEmployeeFromEmailAddress` method instead of the parameter`ClaimsHelper.Email` and `ClaimsHelper.LotusNotesEmail`.
+
+@shwetha, pleace create a PBI for this change and assign it to @Mahita. This is a dependent task for one of the wrapper API creation (GetTalentLinkKeys)
+ 
+Below are the activites for TBD modal usecase
+
+@Mahita: 
+1. For the above mentioned change, take the latest code from the `develop` branch to make the changes.
+2. Creation of wrapper API's in support micro-service for Flex legacy API2. 
+
+@Amar:
+1. For TBD business rules creation, please refer this link
