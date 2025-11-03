@@ -1,0 +1,14 @@
+{
+  "evaluationCriteria": "golden",
+  "type": "prompt",
+  "parameters": {
+    "model": "GPT",
+    "systemPrompt": "",
+    "userPrompt": "",
+    "temperature": "",
+    "top-p": ""
+  },
+  "evaluateOn": "0 5 * * 2",
+  "expectedOutput": "",
+  "id": 100
+}
